@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.container input {
+  background: var(--gray-500);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 0;
+  color: var(--gray-100);
+}
+
+.container button[type=submit] {
+  background: var(--blue-dark);
+  color: var(--gray-100);
+
+  border: 0;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+  
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+
+  transition: background 0.2s;
+}
+
+.container button[type=submit]:disabled {
+  cursor: not-allowed;
+}
+
+.container button[type=submit] svg {
+  margin-left: 0.5rem;
+}
+
+.container button[type=submit]:not(:disabled):hover {
+  background: var(--blue);
+}

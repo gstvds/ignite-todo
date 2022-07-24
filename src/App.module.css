@@ -1,0 +1,56 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.contentWrapper {
+  padding: 0 1rem;
+  width: 736px;
+}
+
+.inputWrapper {
+  display: flex;
+  margin-top: -1.5rem;
+}
+
+.taskContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.taskContainer {
+  display: flex;
+}
+
+.headingsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.taskWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  gap: 12px;
+}
+
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyContainer svg {
+  margin-bottom: 16px;
+}
+
+.emptyContainer strong, span {
+  font-size: 1rem;
+  color: var(--gray-300);
+}

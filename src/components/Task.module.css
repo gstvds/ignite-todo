@@ -1,0 +1,56 @@
+.container {
+  background: var(--gray-500);
+  width: 100%;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container svg:first-child {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.checked {
+  color: var(--purple-dark);
+  overflow: hidden;
+}
+
+.checked:hover {
+  color: var(--purple);
+}
+
+.unchecked {
+  color: var(--blue);
+}
+
+.unchecked:hover {
+  color: var(--blue-dark);
+}
+
+.taskText {
+  cursor: pointer;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  width: 100%;
+}
+
+.checkedText {
+  color: var(--gray-300);
+  text-decoration-line: line-through;
+}
+
+.trash {
+  display: block;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.trash:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+}
